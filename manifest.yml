@@ -6,5 +6,5 @@ applications:
     timeout: 180
     path: build/libs/pal-tracker.jar
     env:
-      WELCOME_MESSAGE: Hello from the production environment
+      WELCOME_MESSAGE: Hello from Cloud Foundry
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'

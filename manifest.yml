@@ -5,6 +5,8 @@ applications:
     memory: 1024M
     timeout: 180
     path: build/libs/pal-tracker.jar
+    routes:
+    - route: pal-tracker-jerry.cfapps.io
     env:
       WELCOME_MESSAGE: Hello from Cloud Foundry
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'

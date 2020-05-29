@@ -1,7 +1,7 @@
 # pal-tracker
 Lab assignments for Pivotal Architect Lab
 
-## Lab: Scaling an App on Cloud Foundry
+## Scaling an App on Cloud Foundry
 
 Cloud Foundry supports two types of scaling:
 * Vertical scaling: Each app instance has more memory or disk space.
